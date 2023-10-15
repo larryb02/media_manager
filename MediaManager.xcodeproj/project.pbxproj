@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		648322822ADCA74500AB8CB1 /* MediaManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648322812ADCA74500AB8CB1 /* MediaManagerApp.swift */; };
-		648322842ADCA74500AB8CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648322832ADCA74500AB8CB1 /* ContentView.swift */; };
 		648322862ADCA74800AB8CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648322852ADCA74800AB8CB1 /* Assets.xcassets */; };
 		648322892ADCA74800AB8CB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648322882ADCA74800AB8CB1 /* Preview Assets.xcassets */; };
 		648322932ADCA74800AB8CB1 /* MediaManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648322922ADCA74800AB8CB1 /* MediaManagerTests.swift */; };
 		6483229D2ADCA74800AB8CB1 /* MediaManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483229C2ADCA74800AB8CB1 /* MediaManagerUITests.swift */; };
 		6483229F2ADCA74800AB8CB1 /* MediaManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483229E2ADCA74800AB8CB1 /* MediaManagerUITestsLaunchTests.swift */; };
+		648322AE2ADCA9E700AB8CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648322AD2ADCA9E700AB8CB1 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		6483227E2ADCA74500AB8CB1 /* MediaManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		648322812ADCA74500AB8CB1 /* MediaManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManagerApp.swift; sourceTree = "<group>"; };
-		648322832ADCA74500AB8CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		648322852ADCA74800AB8CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		648322882ADCA74800AB8CB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6483228E2ADCA74800AB8CB1 /* MediaManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		648322982ADCA74800AB8CB1 /* MediaManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6483229C2ADCA74800AB8CB1 /* MediaManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManagerUITests.swift; sourceTree = "<group>"; };
 		6483229E2ADCA74800AB8CB1 /* MediaManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		648322AD2ADCA9E700AB8CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				648322812ADCA74500AB8CB1 /* MediaManagerApp.swift */,
-				648322832ADCA74500AB8CB1 /* ContentView.swift */,
 				648322852ADCA74800AB8CB1 /* Assets.xcassets */,
+				648322AD2ADCA9E700AB8CB1 /* ContentView.swift */,
 				648322872ADCA74800AB8CB1 /* Preview Content */,
 			);
 			path = MediaManager;
@@ -257,8 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648322842ADCA74500AB8CB1 /* ContentView.swift in Sources */,
 				648322822ADCA74500AB8CB1 /* MediaManagerApp.swift in Sources */,
+				648322AE2ADCA9E700AB8CB1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
