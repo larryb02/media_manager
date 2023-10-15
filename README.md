@@ -1,6 +1,21 @@
 # media_manager
 IOS app developed using swift...
 
+### TODO
+- Create UI
+  - Will start with basic ui while working on business logic and polish later on
+- Business Logic
+  - Authentication
+  - Management Tools
+    - Blanking out right now, will update later...
+  - Web Crawler
+    - Will be using wikipedia for my information, as I feel like it has the widest arrangement of media
+    - May possibly change since wikipedia isn't the most reliable, but I truly only need metadata (release, ongoing, etc..., a brief description would be good as well)
+  - Database Setup
+    -   Need to setup database interactions as well
+    -   As of right now, I'm thinking I need 2 databases
+        - One for inventory, one for user credentials + profiles
+
 ### Features
 - User Auth :: tbd
 - List movies, games, tv shows
