@@ -1,8 +1,7 @@
 # media_manager
 IOS app developed using swift...
 
-###Features
-
+### Features
 - User Auth :: tbd
 - List movies, games, tv shows
   - watched, plan to watch, watching
