@@ -3,10 +3,11 @@ import SwiftUI
 @main
 struct EntryPoint: App {
     var body: some Scene{
+    //potentially login screen before this
     MainMenu()
     }
 }
-
+//struct Login: View
 struct MainMenu: View {
     var body: some Scene{
         WindowGroup{
