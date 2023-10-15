@@ -9,7 +9,8 @@ IOS app developed using swift...
   - Management Tools
     - Blanking out right now, will update later...
   - Web Crawler
-    - Will be using wikipedia for my information, as I feel like it has the widest arrangement of media
+    - Will be using wikipedia for my information, b/c I feel like it has the most sources
+      - Goal is to be able to lookup all forms of media 
     - May possibly change since wikipedia isn't the most reliable, but I truly only need metadata (release, ongoing, etc..., a brief description would be good as well)
   - Database Setup
     -   Need to setup database interactions as well
