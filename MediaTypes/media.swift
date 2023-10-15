@@ -1,1 +1,0 @@
-//abstract class following abstract factory design principals
