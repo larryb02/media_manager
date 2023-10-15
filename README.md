@@ -5,6 +5,8 @@ IOS app developed using swift...
 - User Auth :: tbd
 - List movies, games, tv shows
   - watched, plan to watch, watching
+  - played, plan to play, playing
+  - etc...
 - TBD
 ### Plans
 - Not sure if I'll deploy this to the app store,
