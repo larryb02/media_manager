@@ -14,21 +14,23 @@ struct EntryPoint: App {
     MainMenu()
     }
 }
-//struct Login: View
+//struct Login: Scene {
+//view: LoginView()
+//}
 struct MainMenu: Scene {
     var body: some Scene{
         WindowGroup{
             TabView{
-                ContentView() //Eventually a menu that displays books,games,etc at random
-                                //or by most popular etc...
+                ContentView() 
                 .tabItem{
                     Label("Explore", systemImage: "globe")
+                    
                 }
-                ContentView() //Users personal manager
+                MediaDashboard() //Users personal manager
                 .tabItem{
                     Label("Manage", systemImage: "book")
                 }
-                ContentView() //Settings...
+                SettingsView() //Settings...
                 .tabItem{
                     Label("Settings", systemImage: "gear")
                 }

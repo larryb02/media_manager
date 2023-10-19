@@ -14,6 +14,9 @@
 		6483229D2ADCA74800AB8CB1 /* MediaManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483229C2ADCA74800AB8CB1 /* MediaManagerUITests.swift */; };
 		6483229F2ADCA74800AB8CB1 /* MediaManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483229E2ADCA74800AB8CB1 /* MediaManagerUITestsLaunchTests.swift */; };
 		648322AE2ADCA9E700AB8CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648322AD2ADCA9E700AB8CB1 /* ContentView.swift */; };
+		648322B02ADCB09100AB8CB1 /* ManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648322AF2ADCB09100AB8CB1 /* ManagerView.swift */; };
+		649A9B372AE0E8C6007D2A48 /* MediaDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A9B362AE0E8C6007D2A48 /* MediaDashboard.swift */; };
+		649A9B392AE0E906007D2A48 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A9B382AE0E906007D2A48 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		6483229C2ADCA74800AB8CB1 /* MediaManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManagerUITests.swift; sourceTree = "<group>"; };
 		6483229E2ADCA74800AB8CB1 /* MediaManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		648322AD2ADCA9E700AB8CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		648322AF2ADCB09100AB8CB1 /* ManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerView.swift; sourceTree = "<group>"; };
+		649A9B362AE0E8C6007D2A48 /* MediaDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDashboard.swift; sourceTree = "<group>"; };
+		649A9B382AE0E906007D2A48 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				648322852ADCA74800AB8CB1 /* Assets.xcassets */,
 				648322AD2ADCA9E700AB8CB1 /* ContentView.swift */,
 				648322872ADCA74800AB8CB1 /* Preview Content */,
+				648322AF2ADCB09100AB8CB1 /* ManagerView.swift */,
+				649A9B362AE0E8C6007D2A48 /* MediaDashboard.swift */,
+				649A9B382AE0E906007D2A48 /* SettingsView.swift */,
 			);
 			path = MediaManager;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649A9B392AE0E906007D2A48 /* SettingsView.swift in Sources */,
 				648322822ADCA74500AB8CB1 /* MediaManagerApp.swift in Sources */,
 				648322AE2ADCA9E700AB8CB1 /* ContentView.swift in Sources */,
+				648322B02ADCB09100AB8CB1 /* ManagerView.swift in Sources */,
+				649A9B372AE0E8C6007D2A48 /* MediaDashboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
