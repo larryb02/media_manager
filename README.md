@@ -1,5 +1,6 @@
 # media_manager
-IOS app developed using swift...
+Change of plans, creating this as a website
+Will update readme once I start
 
 ### TODO
 - Create UI
